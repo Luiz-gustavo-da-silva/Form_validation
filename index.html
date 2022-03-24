@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container" >
+        <h1 class="h1_login">User login</h1>
+        <form method="post" action="/home.html" class="form_login" name="form" onsubmit="return validacao()">
+            <div class="titulo">Email or username</div>
+            <input type="text" name="email">
+            <div id="erro_email_login">Por favor digite seu nome de usuário ou e-mail</div>
+            <div class="titulo titulo2">Senha</div>
+            <input type="password" name="senha">
+            <div id="erro_senha_login">Por favor digite sua senha</div>
+            <button type="submit" class="button_login">Entrar</button>
+        </form>
+    </div>
+</body>
+<script src="/javascript/script.js"></script>
+</html>
