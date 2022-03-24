@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background: url(/img/boy-1822614.jpg) no-repeat;
+    background: url(../img/boy-1822614.jpg) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
